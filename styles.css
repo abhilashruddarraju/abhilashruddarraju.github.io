@@ -1,0 +1,108 @@
+body {
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f2e1e1;
+}
+
+header {
+    background-color: #0a1217;
+    color: #ef0909;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+}
+
+nav {
+    background-color: #b94d29;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #110e0e;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    background-color: rgb(86, 53, 53);
+    color: white;
+   
+    padding: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.marks {
+    background-color: #451494;
+
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.home {
+    background-image: url('./home\ background.avif');
+    padding: 5%;
+}
+
+.marks {
+    background-image: url('./marksbackground.avif');
+   
+}
+
+.contact {
+    padding: 9%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./black-abstract-background_1393-348.avif');
+}
+.gallery{
+    background-image:url(./home\ background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15%;
+}
